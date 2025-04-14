@@ -1,58 +1,57 @@
-Sistema de Compras
-Descrição Geral
-Este aplicativo foi desenvolvido como parte da disciplina de Programação Mobile no curso de Análise e Desenvolvimento de Sistemas - 3º semestre - FECAP.
+# Sistema de Compras
 
-O app simula um sistema simples de compras, onde o usuário pode selecionar e desmarcar produtos utilizando CheckBoxes. Cada produto possui um preço fixo, e o sistema calcula o valor total com base nos itens marcados. O objetivo é oferecer uma experiência prática e intuitiva para seleção de produtos e visualização do custo.
+## Descrição Geral
 
-Desenvolvedor
-Nome: Deivid Gomes de Oliveira
+Este aplicativo foi desenvolvido como parte da disciplina de **Programação Mobile** no curso de **Análise e Desenvolvimento de Sistemas - 3º semestre - FECAP**.
 
-Curso: Análise e Desenvolvimento de Sistemas
+O app simula um **sistema simples de compras**, permitindo que o usuário **selecione os produtos desejados** através de **CheckBoxes** e, ao final, visualize o **valor total** das compras com base nos itens marcados. A proposta é oferecer uma interação prática, rápida e objetiva.
 
-Semestre: 3º
+---
 
-Instituição: FECAP
+## Desenvolvedor
 
-Disciplina: Programação Mobile
+- **Nome:** Deivid Gomes de Oliveira  
+- **Curso:** Análise e Desenvolvimento de Sistemas  
+- **Semestre:** 3º  
+- **Instituição:** FECAP  
+- **Disciplina:** Programação Mobile  
+- **Professor:** Vinícius Heltai  
 
-Professor: Vinícius Heltai
+---
 
-Tecnologias e Componentes Utilizados
-Java
+## Tecnologias e Componentes Utilizados
 
-Android Studio
+- Java
+- Android Studio
+- Layouts em XML
+- Componentes Android:
+  - `CheckBox`, `TextView`, `Button`
+- Atualização do valor total dinamicamente conforme seleção
+- Interface simples e intuitiva
 
-Layouts em XML
+---
 
-Componentes Android:
+## Produtos Disponíveis
 
-CheckBox, TextView, Button
+- **Arroz 1 Kg** (R$ 2,69)
+- **Leite longa vida** (R$ 2,70)
+- **Carne Friboi** (R$ 16,70)
+- **Feijão carioquinha 1 Kg** (R$ 3,38)
+- **Refrigerante Coca-Cola 2 litros** (R$ 3,00)
 
-Cálculo dinâmico do total de compras com base nas seleções
+---
 
-Paleta de cores simples e funcional (inspirada em tons neutros para foco no conteúdo)
+## Desafios e Decisões no Desenvolvimento
 
-Produtos Disponíveis
-Arroz 1 Kg (R$ 2,69)
+Durante o desenvolvimento do aplicativo, enfrentei alguns desafios importantes:
 
-Leite longa vida (R$ 2,70)
+- **Gerenciamento das seleções:** implementei uma lógica para identificar dinamicamente quais CheckBoxes foram marcados.
+- **Cálculo do valor total:** desenvolvi a função que atualiza o valor total toda vez que um produto é selecionado ou desmarcado.
+- **Design focado na simplicidade:** optei por uma interface limpa e objetiva para facilitar o uso e a compreensão do app.
 
-Carne Friboi (R$ 16,70)
+---
 
-Feijão carioquinha 1 Kg (R$ 3,38)
+## Executável
 
-Refrigerante Coca-Cola 2 litros (R$ 3,00)
-
-Desafios e Decisões no Desenvolvimento
-Durante a criação deste aplicativo, alguns pontos exigiram atenção especial:
-
-Gerenciamento de múltiplos CheckBoxes: implementei a lógica para verificar quais produtos estavam marcados e somar seus respectivos valores.
-
-Atualização dinâmica do total: o valor total é recalculado toda vez que o usuário marca ou desmarca um item, proporcionando um feedback instantâneo.
-
-Interface simples e funcional: priorizei a clareza nas informações para tornar o uso do app rápido e objetivo.
-
-Executável
-APK gerado: sistemaCompras.apk
-
-Projeto completo disponível em formato .zip
+- APK gerado: `sistemaCompras.apk`
+- Projeto completo disponível em formato `.zip`
